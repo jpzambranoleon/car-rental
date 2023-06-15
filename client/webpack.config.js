@@ -6,9 +6,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js", // Replace 'bundle.js' with your desired output file name
   },
-  mode: "development",
   module: {
     rules: [
+      // ... other rules
       {
         test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],

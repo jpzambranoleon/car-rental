@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,7 +41,7 @@
     "@babel/preset-react": "^7.22.5",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
-    "node-sass": "^7.0.3",
+    "sass": "^1.63.4",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "webpack": "^5.87.0",
